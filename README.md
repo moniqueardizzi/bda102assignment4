@@ -6,6 +6,7 @@ Source: Twitter -
 #BillC45
 #C45
 #Legalization
+#CannabisinCanada
 
 Jason Baker  (jabaker@mcmaster.ca)
 Monique Ardizzi (monique.a.ardizzi@gmail.com)
