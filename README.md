@@ -5,6 +5,6 @@ Source: Twitter - #CannabisAct
 
 
 Jason Baker  (jabaker@mcmaster.ca)
-Monique Ardizzi
+Monique Ardizzi (monique.a.ardizzi@gmail.com)
 Meera Ragunathan
 Jeff Ciraolo (jeff.ciraolo@gmail.com
