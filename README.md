@@ -1,5 +1,5 @@
 #Group assignment
 
-Jason Baker
+Jason Baker  (jabaker@mcmaster.ca)
 Monique Ardizzi
 Meera Ragunathan
