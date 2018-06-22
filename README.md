@@ -8,3 +8,4 @@ Jason Baker  (jabaker@mcmaster.ca)
 Monique Ardizzi (monique.a.ardizzi@gmail.com)
 Meera Ragunathan
 Jeff Ciraolo (jeff.ciraolo@gmail.com
+Jonathan Bungcayao (jbbungcayao@gmail.com)
