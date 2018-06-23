@@ -1,0 +1,26 @@
+Notes:
+
+Jeff, I have included the raw tweets as well as the indext individual tweet messages.  The number returned seems to vary (wondering if it is rate limiting).
+
+The raw tweet is a full tweet data-structure as string per line.
+The csv is the "text" part of the tweet, indexed by a simple count. 
+
+The queries have been executed iteratively over some dates and hash tags:
+
+hash_tags = ['%23CannabisAct',
+             '%23BillC45',
+	     '%23C45',
+	     '%23Legalization',
+	     '%23CannabisinCanada',
+	     '%23C46'
+	    ]
+
+sample_dates = ['since%3A2018-06-01%20until%3A2018-06-07',
+                'since%3A2018-06-08%20until%3A2018-06-14', 
+                'since%3A2018-06-15%20until%3A2018-06-22']
+
+Each pull gets a maximum of 100 returns.  Altogether we should get 3x6 x 100 if each time frame returns a full set (which seems to vary strangly).
+
+This should get you going for the cleaning process. I'll try to get our numbers up (find more hashtags likely).
+
+Cheers!
