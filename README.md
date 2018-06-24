@@ -8,7 +8,13 @@ Source: Twitter -
 #Legalization
 #CannabisinCanada
 #C46
-
+#marijuananews
+#marijuana
+#cannabis
+#marijuanaDecriminalization
+#blessthiscountry
+#LegaliseCannabis
+												                ]#
 Jason Baker  (jabaker@mcmaster.ca)
 Monique Ardizzi (monique.a.ardizzi@gmail.com)
 Meera Ragunathan (m.ragunathan@icloud.com)
