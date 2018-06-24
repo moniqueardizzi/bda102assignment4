@@ -13,6 +13,12 @@ hash_tags = ['%23CannabisAct',
 	     '%23Legalization',
 	     '%23CannabisinCanada',
 	     '%23C46'
+	     '%23marijuananews',
+	     '%23marijuana',
+	     '%23cannabis',
+	     '%23MarijuanaDecriminalization',
+	     '%23blessthiscountry',
+	     '%23LegaliseCannabis'
 	    ]
 
 sample_dates = ['since%3A2018-06-01%20until%3A2018-06-07',
