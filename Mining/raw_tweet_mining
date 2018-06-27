@@ -1,0 +1,41 @@
+# Import libraries
+
+import sys
+import tweepy
+import csv 
+
+# 1. I used "tweepy" package for mining tweets from Twitter since it is the most straightforward 
+
+from tweepy import OAuthHandler
+
+# Accessible through Twitter Search API --> https://developer.twitter.com/en/docs/tweets/search/overview
+consumer_key = 'xxx'
+consumer_secret = 'yyy'
+access_token = 'zzz'
+access_secret = '123'
+auth = OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_secret)
+api = tweepy.API(auth)
+
+# 2. Open/Create a file to save data
+#
+Notes:
+# I tried using all the hashtags in one go
+# Tried Implementing geolocalization (tweets tagged in/from Canada)
+# Gathered tweets starting 21 June 2018 (reaction after legalization)
+# I also did removed retweets (partially successful as some still shows same tweet)
+
+legal_weed = open('legal_weed.csv', 'a')
+#Use csv Writer
+csvWriter = csv.writer(legal_weed)
+
+for tweet in tweepy.Cursor(api.search,q="#CannabisAct OR #BillC45 OR #C45 OR #C46 OR #CannabisinCanada\                          
+                                        OR #marijuananews OR #marijuana OR #cannabis OR #marijuanaDecriminalization\
+                           OR #blessthiscountry OR #LegaliseCannabis -filter:retweets -R @ -'Retweeted",
+                           count=5000,
+                           lang="en",
+                           country_code="CA",
+                           since="2018-06-21").items():
+    csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])#, tweet.user.location])
+    print (tweet.created_at, tweet.text)#, tweet.user.location)
+legal_weed.close()
