@@ -38,6 +38,7 @@ The python scripts with output will be best viewed in a web browser at our git r
 
 1. 01 Mining folder 
 - Please see miningNotes.txt which outlines the hashtags and methods used to pull our data  
+- mining.py contains the script used to pull the data  
 - tweets_2.csv was the final tweet set pulled for the project which was reformatted in Excel and began to have sentiment labelling done, and the dataset was stored as tweets_2_with_sentiment.csv  
 
 2. 02 Clean folder  
